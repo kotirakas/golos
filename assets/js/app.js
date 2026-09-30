@@ -649,6 +649,11 @@
     $$('[data-order-step]', orderPanel).forEach(function (el) {
       el.hidden = el.dataset.orderStep !== String(n);
     });
+    // на шагах оплаты и подтверждения кнопки регистрации не нужны
+    ['.form-actions', '.form-legal'].forEach(function (sel) {
+      var el = $(sel, regForm);
+      if (el) el.hidden = n > 1;
+    });
   }
 
   if (regForm) {
