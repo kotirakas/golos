@@ -1,0 +1,65 @@
+/*!
+ * Font Awesome Free 6.7.2 — локальное подмножество, 9 иконок для блока «Кому будет полезно».
+ * https://fontawesome.com  ·  Icons: CC BY 4.0  ·  Fonts: SIL OFL 1.1  ·  Code: MIT
+ * Собрано из Font Awesome Free 6.7.2; внешние CDN не используются.
+ */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('../fonts/fa-solid-900.woff2') format("woff2"); }
+
+.fa {
+  font-family: var(--fa-style-family, "Font Awesome 6 Free");
+  font-weight: var(--fa-style, 900); }
+
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.fa {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto; }
+
+.fas::before,
+.far::before,
+.fab::before,
+.fa-solid::before,
+.fa-regular::before,
+.fa-brands::before,
+.fa::before {
+  content: var(--fa); }
+
+.fa-classic,
+.fas,
+.fa-solid,
+.far,
+.fa-regular {
+  font-family: 'Font Awesome 6 Free'; }
+
+.fa-brain {
+  --fa: "\f5dc"; }
+.fa-music {
+  --fa: "\f001"; }
+.fa-microphone-lines {
+  --fa: "\f3c9"; }
+.fa-hand {
+  --fa: "\f256"; }
+.fa-language {
+  --fa: "\f1ab"; }
+.fa-heart-pulse {
+  --fa: "\f21e"; }
+.fa-flask {
+  --fa: "\f0c3"; }
+.fa-graduation-cap {
+  --fa: "\f19d"; }
+.fa-drum {
+  --fa: "\f569"; }
